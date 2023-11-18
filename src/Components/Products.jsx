@@ -32,7 +32,7 @@ const Products = () => {
             <>
                 <Grid item lg={3} md={3} sm={6} xs={12}>
                     <Box className="products-image-div">
-                        <img src={imgSrc} alt={altName} className='products-image'/>
+                        <img src={imgSrc} alt={altName} className='products-image' />
                     </Box>
                 </Grid>
             </>
@@ -42,7 +42,6 @@ const Products = () => {
     return (
         <>
             <Container maxWidth="lg">
-                {/* style={{ marginTop: "3%", padding: "0 16px 0 16px" }} */}
                 <Grid container className='product-main-div'>
 
                     {
@@ -52,23 +51,6 @@ const Products = () => {
                         })
                     }
 
-
-
-                    {/* <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Box>
-                            <img src="./Images/Zo.svg" alt="Zo" />
-                        </Box>
-                    </Grid>
-                    <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Box>
-                            <img src="./Images/AckPlus.svg" alt="Ack Plus" />
-                        </Box>
-                    </Grid>
-                    <Grid item lg={3} md={3} sm={6} xs={12}>
-                        <Box>
-                            <img src="./Images/Speedlink.svg" alt="Speed Link" />
-                        </Box>
-                    </Grid> */}
                 </Grid>
             </Container>
         </>

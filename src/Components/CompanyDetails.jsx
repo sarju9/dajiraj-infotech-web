@@ -76,13 +76,11 @@ const CompanyDetails = () => {
 
                                     <Grid item lg={6} md={6} sm={6} xs={12} className='fourth-div-support'>
                                         <Box className="support-parent-div">
-                                            {/* <Stack direction="row" spacing={2}> */}
-                                                <Paper className='support-child-div'>
-                                                    <Typography display="block" variant='h3' gutterBottom className='support-primary-content'>27/7
-                                                        <Typography className='support-secondary-content'>Support</Typography>
-                                                    </Typography>
-                                                </Paper>
-                                            {/* </Stack> */}
+                                            <Paper className='support-child-div'>
+                                                <Typography display="block" variant='h3' gutterBottom className='support-primary-content'>27/7
+                                                    <Typography className='support-secondary-content'>Support</Typography>
+                                                </Typography>
+                                            </Paper>
                                         </Box>
                                     </Grid>
                                 </Grid>

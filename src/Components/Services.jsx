@@ -67,32 +67,6 @@ const Services = () => {
                             return <ServiceCard key={id} imgSrc={image} title={name} description={description} />
                         })
                     }
-
-
-
-                    {/* <Grid item lg={4} md={4} sm={12} xs={12} className='services-items-div'>
-                        <Box className="item-parent-div">
-                            <Paper className='item-child-div'>
-                                <img src='./Images/image 7.svg' alt="image" className='services-each-item-image' />
-                                <Box className="services-card-details">
-                                    <Typography display="block" variant='h4' gutterBottom className='service-each-item-name'>Mobile App Development</Typography>
-                                    <Typography display="block" className='services-each-item-description'>
-                                        We make catchy, handy, user-friendly utility apps for android, ios and tablets.
-                                    </Typography>
-                                </Box>
-                            </Paper>
-                        </Box>
-                    </Grid> */}
-
-                    {/* <Grid item lg={4} md={4} sm={12} xs={12} className='first-three-item--div'>
-                        hi
-                    </Grid>
-                    <Grid item lg={4} md={4} sm={12} xs={12} className='first-three-item--div'>
-                        hi
-                    </Grid>
-                    <Grid item lg={4} md={4} sm={12} xs={12} className='first-three-item--div'>
-                        hi
-                    </Grid> */}
                 </Grid>
             </Container>
         </>
