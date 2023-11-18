@@ -1,0 +1,102 @@
+.services-card-items-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card-item-parent-div {
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDF4 !important;
+    border-radius: 20px !important;
+    border: 1px solid #E9D288;
+    margin-top: 10%;
+}
+
+.services-card-item-child-div {
+    box-shadow: none !important;
+    background-color: #FFFDF4 !important;
+}
+
+.services-card-each-item-image {
+    height: 14vh;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.services-card-details {}
+
+.services-card-details h4 {}
+
+.service-card-each-item-name {
+    font-size: 26px !important;
+    line-height: 30px !important;
+    font-weight: 400 !important;
+    color: #000000 !important;
+    max-width: min-content;
+    margin: auto !important;
+    text-align: center;
+}
+
+.services-card-each-item-description {
+    font-size: 21px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    color: #8E8E8E !important;
+    margin-top: 15px !important;
+    padding: 0 5px;
+}
+
+@media (max-width: 1440px) {
+    .services-card-item-parent-div {
+        height: 50vh;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    .services-card-item-parent-div {
+        height: 50vh;
+        width: 75%;
+    }
+
+    .services-card-each-item-image {
+        height: 13vh !important;
+    }
+
+    .service-card-each-item-name {
+        font-size: 24px !important;
+    }
+
+    .services-card-each-item-description {
+        font-size: 15px !important;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .services-card-item-parent-div {
+        height: 48vh;
+        width: 70%;
+    }
+
+    .services-card-each-item-image {
+        height: 12vh !important;
+    }
+
+    .service-card-each-item-name {
+        font-size: 22px !important;
+    }
+
+    .services-card-each-item-description {
+        font-size: 14px !important;
+        padding: 0px 12px;
+    }
+}

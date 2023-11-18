@@ -1,0 +1,139 @@
+#header .main-header-div {
+    background-color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#header .main-header {
+    width: 100%;
+    height: 88px;
+    border-radius: 30px;
+    border: 1px solid #DAAF5A;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    background-color: #FFFDF4;
+}
+
+.header-logo {
+    height: 9vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-link {
+    color: #000000 !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+
+    text-transform: capitalize !important;
+}
+
+
+.menu-ellipse {
+    padding-left: 15px;
+}
+
+.contact-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-menu-btn {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    border-radius: 50px !important;
+    padding: 20px 48px 20px 48px !important;
+    background: linear-gradient(#E9D288 100%, #DAAF5A 100%);
+    text-transform: capitalize !important;
+    box-shadow: 4px 4px 4px 0 #FFE4AD !important;
+}
+
+.round-border {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #DAAF5A;
+    margin-left: 10px;
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+    .header-logo {
+        height: 7vh;
+    }
+}
+
+@media (max-width: 1440px) {
+    .main-header {
+        height: 75px !important;
+    }
+
+    .header-logo {
+        height: 9vh;
+    }
+
+    .menu-link {
+        font-size: 19px !important;
+    }
+
+    .contact-menu-btn {
+        font-size: 19px !important;
+        line-height: 16px !important;
+        padding: 19px 40px 19px 40px !important;
+    }
+}
+
+@media (max-width: 1025px) {
+    .main-header {
+        height: 70px !important;
+    }
+
+    .header-logo {
+        height: 9vh;
+    }
+
+    .menu-link {
+        font-size: 18px !important;
+    }
+
+    .contact-menu-btn {
+        font-size: 18px !important;
+        line-height: 14px !important;
+        padding: 17px 40px 17px 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        height: 58px !important;
+    }
+
+    .header-logo {
+        height: 7vh;
+    }
+
+    .menu-link {
+        font-size: 15px !important;
+    }
+
+    .menu-ellipse {
+        padding-left: 5px;
+    }
+
+    .contact-menu-btn {
+        font-size: 15px !important;
+        line-height: 16px !important;
+        padding: 10px 15px 10px 15px !important;
+    }
+}

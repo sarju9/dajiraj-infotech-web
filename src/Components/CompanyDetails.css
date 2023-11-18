@@ -1,0 +1,291 @@
+.comapany-details-main-div {
+    background-color: #FFFDF4;
+    margin-top: 5%;
+}
+
+.left-side-section {}
+
+.comapny-details-card-main-div {
+    border: 0 !important;
+    box-shadow: none !important;
+    background-color: #FFFDF4 !important;
+}
+
+.comapny-details-card-main-header {
+    color: #DAAF5A;
+    padding: 0 !important;
+}
+
+.comapny-details-card-main-header span {
+    font-size: 16px;
+}
+
+.comapny-details-card-inner-header {
+    padding: 0 !important;
+}
+
+.comapny-details-card-content-div {
+    padding: 0 !important;
+}
+
+.comapny-details-card-content-inner-div {
+    padding-top: 10px !important;
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    color: #8E8E8E !important;
+}
+
+.right-side-section {
+    background-color: #FFFDF4;
+}
+
+.main-projects-team-support-clients-div {
+    height: 50vh;
+    width: 100%;
+}
+
+.projects-clients-box-div {}
+
+.projects-parent-div {}
+
+.projects-child-div {
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FBFF !important;
+    border-radius: 20px !important;
+    border: 1px solid #70abe1;
+    box-shadow: none !important;
+}
+
+.projects-primary-content {
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    line-height: 64px !important;
+    color: #70ABE1;
+
+}
+
+.projects-secondary-content {
+    text-transform: uppercase;
+    color: #5C5C5C;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-add-icon {
+    font-size: 44px !important;
+    font-weight: bolder !important;
+    color: #70ABE1;
+    padding: 0 !important;
+    margin: 0 0 -4px -8px !important;
+
+}
+
+.clients-parent-div {}
+
+.clients-child-div {
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2FFF4 !important;
+    border-radius: 20px !important;
+    border: 1px solid #70E182;
+    margin: 11% 0 0 -2% !important;
+    box-shadow: none !important;
+}
+
+.clients-primary-content {
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    line-height: 64px !important;
+    color: #70E182;
+
+}
+
+.clients-secondary-content {
+    text-transform: uppercase;
+    color: #5C5C5C;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-add-icon {
+    font-size: 44px !important;
+    font-weight: bolder !important;
+    color: #70E182;
+    padding: 0 !important;
+    margin: 0 0 -4px -8px !important;
+}
+
+.team-support-box-div {
+    margin-top: 3%;
+}
+
+.team-parent-div {}
+
+.team-child-div {
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8F8 !important;
+    border-radius: 20px !important;
+    border: 1px solid #E17070;
+    margin: 1% 0 0 18% !important;
+    box-shadow: none !important;
+}
+
+.team-primary-content {
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    line-height: 64px !important;
+    color: #E17070;
+
+}
+
+.team-secondary-content {
+    text-transform: uppercase;
+    color: #5C5C5C;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-add-icon {
+    font-size: 44px !important;
+    font-weight: bolder !important;
+    color: #E17070;
+    padding: 0 !important;
+    margin: 0 0 -4px -8px !important;
+}
+
+.fourth-div-support {}
+
+
+.support-parent-div {}
+
+.support-child-div {
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDFF !important;
+    border-radius: 20px !important;
+    border: 1px solid #D25EE4;
+    margin: 11% 0 0 15% !important;
+    box-shadow: none !important;
+}
+
+.support-primary-content {
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    line-height: 64px !important;
+    color: #D25EE4;
+
+}
+
+.support-secondary-content {
+    text-transform: uppercase;
+    color: #5C5C5C;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-add-icon {
+    font-size: 44px !important;
+    font-weight: bolder !important;
+    color: #D25EE4;
+    padding: 0 !important;
+    margin: 0 0 -4px -8px !important;
+}
+
+@media (max-width: 1025px) {
+    .comapny-details-card-inner-header span {
+        font-size: 30px;
+    }
+
+    .comapny-details-card-content-inner-div {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+
+    .projects-child-div {
+        height: 22vh;
+        width: 65%;
+    }
+
+    .clients-child-div {
+        height: 22vh;
+        width: 65%;
+        margin: 11% 0 0 -3% !important;
+    }
+
+    .team-child-div {
+        height: 22vh;
+        width: 65%;
+        margin: 1% 0 0 19% !important;
+    }
+
+    .support-child-div {
+        height: 22vh;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .comapny-details-card-inner-header span {
+        font-size: 24px;
+    }
+
+    .comapny-details-card-content-inner-div {
+        font-size: 11px !important;
+        line-height: 18px !important;
+    }
+
+    .projects-child-div {
+        height: 22vh;
+        width: 70%;
+        margin: 0 0 0 15% !important;
+    }
+
+    .clients-child-div {
+        height: 22vh;
+        width: 70%;
+        margin: 10% 0 0 7% !important;
+    }
+
+    .team-child-div {
+        height: 22vh;
+        width: 70%;
+        margin: 0% 0 0 30% !important;
+    }
+
+    .support-child-div {
+        height: 22vh;
+        width: 70%;
+        margin: 9% 0 0 22% !important;
+    }
+}

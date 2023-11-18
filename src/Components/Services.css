@@ -1,0 +1,103 @@
+.services-main-div {
+    margin-top: 5% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card-div {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.services-card-main-header {
+    padding: 0 !important;
+}
+
+.services-card-main-header span {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.services-card-content-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+.services-card-content-inner-div {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    text-align: center;
+}
+
+.services-items-div {}
+
+.item-parent-div {
+    height: 45vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDF4 !important;
+    border-radius: 20px !important;
+    border: 1px solid #E9D288;
+}
+
+.item-child-div {
+    box-shadow: none !important;
+    background-color: #FFFDF4 !important;
+}
+
+.services-each-item-image {
+    height: 16vh;
+    width: 100%;
+
+}
+
+.services-card-details {}
+
+.service-each-item-name {
+    font-size: 22px !important;
+    line-height: 26px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+.services-each-item-description {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    color: #8E8E8E !important;
+
+}
+
+@media (max-width: 1025px) {
+    .services-card-main-header span {
+        font-size: 44px;
+        line-height: 46px;
+        font-weight: 400;
+    }
+
+    .services-card-content-inner-div {
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-card-main-header span {
+        font-size: 38px;
+        line-height: 42px;
+        font-weight: 400;
+    }
+
+    .services-card-content-inner-div {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+}

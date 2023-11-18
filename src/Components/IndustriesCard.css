@@ -1,0 +1,77 @@
+.industries-card-items-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.industries-card-item-parent-div {
+    height: 110px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #FFFDF4 !important;
+    border-radius: 20px !important;
+    border: 1px solid #E9D288;
+    margin: 5% 0 0 5%;
+}
+
+.industries-card-item-child-div {
+    box-shadow: none !important;
+    background-color: #FFFDF4 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.industries-card-img-div {}
+
+.industries-card-each-item-image {
+    height: 70px;
+    width: 70px;
+}
+
+.industries-card-each-item-name {
+    font-size: 22px !important;
+    line-height: 26px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: #000000 !important;
+    margin-left: 15px !important;
+}
+
+@media (max-width: 1025px) {
+    .industries-card-item-parent-div {
+        height: 100px;
+        width: 300px;
+    }
+
+    .industries-card-each-item-image {
+        height: 65px;
+        width: 65px;
+    }
+
+    .industries-card-each-item-name {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .industries-card-item-parent-div {
+        height: 100px;
+        width: 300px;
+    }
+
+    .industries-card-each-item-image {
+        height: 62px;
+        width: 62px;
+    }
+
+    .industries-card-each-item-name {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+}
