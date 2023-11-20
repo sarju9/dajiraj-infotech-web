@@ -70,3 +70,19 @@
         line-height: 24px !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .portfolio-card-item-parent-div {
+        height: 155px;
+        width: 175px;
+    }
+
+    .portfolio-card-each-item-image {
+        height: 11vh;
+    }
+
+    .portfolio-card-each-item-name {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+}

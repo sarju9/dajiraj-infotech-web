@@ -75,3 +75,20 @@
         line-height: 24px !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .industries-card-item-parent-div {
+        height: 90px;
+        width: 280px;
+    }
+
+    .industries-card-each-item-image {
+        height: 57px;
+        width: 57px;
+    }
+
+    .industries-card-each-item-name {
+        font-size: 17px !important;
+        line-height: 20px !important;
+    }
+}

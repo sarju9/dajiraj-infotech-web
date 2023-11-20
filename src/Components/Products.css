@@ -23,3 +23,13 @@
         height: 55px;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .products-image-div {
+        padding: 10px 0;
+    }
+
+    .products-image {
+        height: 50px;
+    }
+}

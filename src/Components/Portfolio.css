@@ -91,3 +91,21 @@
         padding: 13px 45px 13px 45px !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .portfolio-card-main-header span {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .portfolio-card-content-inner-div {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .portfolio-view-more-btn {
+        font-size: 15px !important;
+        line-height: 22px !important;
+        padding: 10px 40px 10px 40px !important;
+    }
+}

@@ -53,3 +53,14 @@
         padding: 13px 42px 13px 42px !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .career-title {
+        font-size: 16px !important;
+    }
+
+    .career-hire-now-btn {
+        font-size: 12px !important;
+        padding: 7px 24px 7px 24px !important;
+    }
+}

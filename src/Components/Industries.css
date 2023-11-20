@@ -61,3 +61,15 @@
         line-height: 28px !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .industries-card-main-header span {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .industries-card-content-inner-div {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+}

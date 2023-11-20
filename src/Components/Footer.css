@@ -50,3 +50,18 @@
         width: 35%;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .footer-logo-img {
+        width: 50%;
+    }
+
+    .footer-descripton {
+        font-size: 10px !important;
+        line-height: 14px !important;
+    }
+
+    .footer-inner-content-div p {
+        font-size: 12px;
+    }
+}

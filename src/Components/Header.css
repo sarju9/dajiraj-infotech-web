@@ -38,6 +38,10 @@ a {
     text-transform: capitalize !important;
 }
 
+.mobile-view-contact-us-menu {
+    display: none;
+}
+
 
 .menu-ellipse {
     padding-left: 15px;
@@ -66,6 +70,18 @@ a {
     height: 12px;
     background-color: #DAAF5A;
     margin-left: 10px;
+}
+
+.mobile-navbar-hamburger-menu {
+    display: none;
+
+    .close-outline {
+        display: none;
+    }
+}
+
+.mobile-navbar-hamburger-menu[name="close-outline"] {
+    display: none;
 }
 
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
@@ -136,4 +152,113 @@ a {
         line-height: 16px !important;
         padding: 10px 15px 10px 15px !important;
     }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .mobile-navbar-hamburger-menu {
+        display: inline-block;
+        z-index: 999;
+
+
+        .mobile-nav-icon {
+            font-size: 2rem;
+            color: #DAAF5A;
+        }
+    }
+
+    .menu-ellipse {
+        display: none;
+    }
+
+    .mobile-view-contact-us-menu {
+        display: inline-block;
+    }
+
+    /* hide the original nav menu */
+    .main-header {
+        .menu {
+            width: 100vw !important;
+            height: 100vh !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #FFFDF4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-direction: column; */
+
+            /* right side all menu links  */
+            transform: translateX(100%);
+            visibility: hidden;
+            opacity: 0;
+            overflow-x: hidden;
+        }
+
+
+        .menu div {
+            /* display menu links center in mobile view  */
+            flex-direction: column;
+            text-align: center;
+
+            /* display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center; */
+        }
+
+        .menu-link {
+            margin: 0;
+            font-size: 20px !important;
+            line-height: 34px !important;
+        }
+
+        .contact-menu {
+            display: none;
+        }
+
+        /* .contact-menu {
+            width: 100vw !important;
+            height: 100vh !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #FFFDF4;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+            transform: translateX(170%);
+        } */
+    }
+
+    .active .mobile-nav-icon {
+        display: none;
+        font-size: 2rem;
+        position: absolute;
+        top: 6%;
+        right: 7%;
+        color: #DAAF5A;
+        z-index: 9999;
+    }
+
+    .active .close-outline {
+        display: inline-block;
+    }
+
+    .active .menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+        z-index: 999;
+    }
+
+    .menu { 
+        overflow-x: hidden;
+    }
+
 }

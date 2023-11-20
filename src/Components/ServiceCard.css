@@ -100,3 +100,27 @@
         padding: 0px 12px;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .services-card-item-parent-div {
+        height: 45vh;
+        width: 70%;
+    }
+
+    .services-card-each-item-image {
+        height: 10vh !important;
+        margin-bottom: 10px !important;
+    }
+
+    .service-card-each-item-name {
+        font-size: 20px !important;
+        line-height: 22px !important;
+    }
+
+    .services-card-each-item-description {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        padding: 0px 14px;
+        margin-top: 10px !important;
+    }
+}

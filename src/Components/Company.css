@@ -77,3 +77,9 @@
         width: 300px;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .card-header span {
+        font-size: 26px !important;
+    }
+}

@@ -289,3 +289,104 @@
         margin: 9% 0 0 22% !important;
     }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .comapny-details-card-inner-header span {
+        font-size: 22px;
+    }
+
+    .comapny-details-card-content-inner-div {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    
+    .main-projects-team-support-clients-div {
+        /* height: 50vh;
+        overflow-y: scroll; */
+        height: 88vh;
+    }
+
+    .projects-primary-content {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+    .projects-add-icon {
+        font-size: 37px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .projects-secondary-content {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .projects-child-div {
+        height: 17vh;
+        width: 40%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .clients-primary-content {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+    .clients-add-icon {
+        font-size: 37px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .clients-secondary-content {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .clients-child-div {
+        height: 17vh;
+        width: 40%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .team-support-box-div {
+        margin: 0;
+    }
+
+    .team-primary-content {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+    .team-add-icon {
+        font-size: 37px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .team-secondary-content {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .team-child-div {
+        height: 17vh;
+        width: 40%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .support-child-div {
+        height: 17vh;
+        width: 40%;
+        margin: 5% auto auto auto !important;
+        padding: 10px;
+    }
+
+    .support-primary-content {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+    .support-secondary-content {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+}
