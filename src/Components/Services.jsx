@@ -60,13 +60,15 @@ const Services = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container>
+                <Grid container className='services-card-data'>
+
                     {
                         ServiceData.map((item) => {
                             const { id, name, description, image } = item;
                             return <ServiceCard key={id} imgSrc={image} title={name} description={description} />
                         })
                     }
+                    
                 </Grid>
             </Container>
         </>
