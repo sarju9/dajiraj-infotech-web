@@ -14,7 +14,8 @@
 .career-title {
     text-align: center;
     font-weight: 600 !important;
-    font-size: 38px !important;
+    font-size: 26px !important;
+    line-height: 32px !important;
 }
 
 .career-main-btn-div {
@@ -22,11 +23,11 @@
 }
 
 .career-hire-now-btn {
-    font-size: 22px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
-    line-height: 26px !important;
+    line-height: 24px !important;
     border-radius: 50px !important;
-    padding: 15px 48px 15px 48px !important;
+    padding: 13px 45px 13px 45px !important;
     background: linear-gradient(#E9D288 100%, #DAAF5A 100%);
     text-transform: capitalize !important;
     box-shadow: 4px 4px 4px 0 #FFE4AD !important;
@@ -34,12 +35,14 @@
 
 @media (max-width: 1025px) {
     .career-title {
-        font-size: 36px !important;
+        font-size: 24px !important;
+        line-height: 30px !important;
     }
 
     .career-hire-now-btn {
-        font-size: 22px !important;
-        padding: 14px 45px 14px 45px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+        padding: 10px 40px 10px 40px !important;
     }
 }
 
@@ -55,6 +58,13 @@
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .career-content-div {
+        flex-direction: column;
+    }
+
+    .career-main-btn-div {
+        margin: 0;
+    }
     .career-title {
         font-size: 16px !important;
     }

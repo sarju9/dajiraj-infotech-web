@@ -9,17 +9,17 @@ const Company = () => {
                 <Grid container className='company'>
                     <Grid item lg={7} md={6} sm={6} xs={12} >
                         <Card className='comapny-text-card-div'>
-                            <CardHeader title="Creating the Perfect" titleTypographyProps={{ variant: 'h3' }} className='card-header' />
+                            <CardHeader title="Creating the Perfect" className='card-header' />
                                 <img src='./Images/Ellipse 2.svg' alt='ellipse 2' className='company-ellipse' />
-                            <CardHeader title="Harmony for Your Digital" titleTypographyProps={{ variant: 'h3' }} className='card-header ellipse' />
-                            <CardHeader title="Solutions." titleTypographyProps={{ variant: 'h3' }} className='card-header' />
+                            <CardHeader title="Harmony for Your Digital" className='card-header ellipse' />
+                            <CardHeader title="Solutions." className='card-header' />
 
                             <CardContent className='card-content-div'>
                                 <Typography color="textSecondary" gutterBottom className='card-content'>
-                                    We're the award winning UI-UX agency, who create digital products that <br />
-                                    people love to use. Our work is driven by a deep understanding of how <br />
-                                    people interact with technology. We take a user-centered approach to <br />
-                                    design, which means we start every project by trying to understand the <br />
+                                    We're the award winning UI-UX agency, who create digital products that
+                                    people love to use. Our work is driven by a deep understanding of how
+                                    people interact with technology. We take a user-centered approach to
+                                    design, which means we start every project by trying to understand the
                                     needs of the people who will be using our products.
                                 </Typography>
                             </CardContent>

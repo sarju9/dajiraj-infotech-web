@@ -48,11 +48,11 @@ const Services = () => {
                     <Grid item lg={12} md={12} sm={12} xs={12} className='services-main-div'>
                         <Card className='services-card-div'>
                             <CardHeader className='services-card-main-header' title="See what we can do for you"
-                                titleTypographyProps={{ variant: 'h3' }} />
+                            />
 
                             <CardContent className='services-card-content-div'>
                                 <Typography color="textSecondary" gutterBottom className='services-card-content-inner-div'>
-                                    We offer end-to-end services in the IT domain ranging from customized mobile app <br />
+                                    We offer end-to-end services in the IT domain ranging from customized mobile app 
                                     development to enterprise web development.
                                 </Typography>
                             </CardContent>
@@ -68,7 +68,7 @@ const Services = () => {
                             return <ServiceCard key={id} imgSrc={image} title={name} description={description} />
                         })
                     }
-                    
+
                 </Grid>
             </Container>
         </>

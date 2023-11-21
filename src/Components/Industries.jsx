@@ -73,11 +73,11 @@ const Industries = () => {
                     <Grid item lg={12} md={12} sm={12} xs={12} className='industries-main-div'>
                         <Card className='industries-card-div'>
                             <CardHeader className='industries-card-main-header' title="Industries We Serve"
-                                titleTypographyProps={{ variant: 'h3' }} />
+                            />
 
                             <CardContent className='industries-card-content-div'>
                                 <Typography color="textSecondary" gutterBottom className='industries-card-content-inner-div'>
-                                    Our design process follows a proven approach. We begin with a deep <br />
+                                    Our design process follows a proven approach. We begin with a deep 
                                     understanding of your needs and create a planning template.
                                 </Typography>
                             </CardContent>

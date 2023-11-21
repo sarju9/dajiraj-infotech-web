@@ -13,17 +13,17 @@ const CompanyDetails = () => {
                             <CardHeader title="WE ARE DAJIRAJ INFOTECH"
                                 titleTypographyProps={{ variant: 'subtitle2' }} className='comapny-details-card-main-header' />
                             <CardHeader title="Top-rated Web And Mobile App"
-                                titleTypographyProps={{ variant: 'h4' }} className='comapny-details-card-inner-header' />
-                            <CardHeader title="Design and Development Agency" titleTypographyProps={{ variant: 'h4' }} className='comapny-details-card-inner-header' />
+                                className='comapny-details-card-inner-header' />
+                            <CardHeader title="Design and Development Agency" className='comapny-details-card-inner-header' />
 
                             <CardContent className='comapny-details-card-content-div'>
                                 <Typography color="textSecondary" gutterBottom className='comapny-details-card-content-inner-div'>
-                                    In the fast-changing technological landscape, one thing never <br />
-                                    changes. Your website is the face of your business and your app is <br />
-                                    your most valuable asset. We at Devoq design believe in helping you <br />
-                                    put your best foot forward. And this is why we are a top-rated web <br />
-                                    and mobile app development company helping businesses with 360- <br />
-                                    degree solutions from UI/UX Design, Web Development, App <br />
+                                    In the fast-changing technological landscape, one thing never
+                                    changes. Your website is the face of your business and your app is
+                                    your most valuable asset. We at Devoq design believe in helping you
+                                    put your best foot forward. And this is why we are a top-rated web
+                                    and mobile app development company helping businesses with 360-
+                                    degree solutions from UI/UX Design, Web Development, App
                                     Development, and DevOps Solutions.
                                 </Typography>
                             </CardContent>

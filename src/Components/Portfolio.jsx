@@ -53,11 +53,11 @@ const Portfolio = () => {
                     <Grid item lg={12} md={12} sm={12} xs={12} className='portfolio-main-div'>
                         <Card className='portfolio-card-div'>
                             <CardHeader className='portfolio-card-main-header' title="Our Selected Work"
-                                titleTypographyProps={{ variant: 'h3' }} />
+                            />
 
                             <CardContent className='portfolio-card-content-div'>
                                 <Typography color="textSecondary" gutterBottom className='portfolio-card-content-inner-div'>
-                                    Here is a glimpse of our work that says the story of our focused approach and <br />
+                                    Here is a glimpse of our work that says the story of our focused approach and
                                     dedicated efforts to meet the client’s business requirements.
                                 </Typography>
                             </CardContent>
