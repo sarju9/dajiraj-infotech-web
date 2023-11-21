@@ -186,10 +186,9 @@ a {
             display: flex;
             align-items: center;
             justify-content: center;
-            /* flex-direction: column; */
 
             /* right side all menu links  */
-            transform: translateX(100%);
+            transition: 0.7s;
             visibility: hidden;
             opacity: 0;
             overflow-x: hidden;
@@ -200,12 +199,6 @@ a {
             /* display menu links center in mobile view  */
             flex-direction: column;
             text-align: center;
-
-            /* display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center; */
         }
 
         .menu-link {
@@ -217,23 +210,6 @@ a {
         .contact-menu {
             display: none;
         }
-
-        /* .contact-menu {
-            width: 100vw !important;
-            height: 100vh !important;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-color: #FFFDF4;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-
-            transform: translateX(170%);
-        } */
     }
 
     .active .mobile-nav-icon {
@@ -253,11 +229,10 @@ a {
     .active .menu {
         visibility: visible;
         opacity: 1;
-        transform: translateX(0);
         z-index: 999;
     }
 
-    .menu { 
+    .menu {
         overflow-x: hidden;
     }
 
