@@ -17,7 +17,7 @@
 }
 
 .comapny-details-card-main-header span {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .comapny-details-card-inner-header {
@@ -280,10 +280,40 @@
         margin: 0 0 0 15% !important;
     }
 
+    .projects-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .projects-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .projects-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
     .clients-child-div {
         height: 22vh;
         width: 70%;
         margin: 10% 0 0 7% !important;
+    }
+
+    .clients-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .clients-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .clients-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 
     .team-child-div {
@@ -291,67 +321,100 @@
         width: 70%;
         margin: 0% 0 0 30% !important;
     }
+    
+    .team-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .team-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .team-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
 
     .support-child-div {
         height: 22vh;
         width: 70%;
         margin: 9% 0 0 22% !important;
     }
+
+    .support-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .support-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .comapny-details-card-main-header span {
+        padding: 0 20px;
+    }
+
     .comapny-details-card-inner-header span {
         font-size: 22px;
+        line-height: 28px;
+        padding: 0 20px;
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 12px !important;
-        line-height: 18px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        text-align: justify;
+        padding: 0 20px;
     }
     
     .main-projects-team-support-clients-div {
-        height: 88vh;
+        height: 120vh;
     }
 
     .projects-primary-content {
-        font-size: 40px !important;
+        font-size: 42px !important;
         line-height: 48px !important;
     }
 
     .projects-add-icon {
-        font-size: 37px !important;
+        font-size: 40px !important;
         margin: 0 0 -5px -5px !important;
     }
 
     .projects-secondary-content {
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 22px !important;
     }
 
     .projects-child-div {
-        height: 17vh;
-        width: 40%;
+        height: 23vh;
+        width: 60%;
         margin: 5% auto auto auto !important;
     }
 
     .clients-primary-content {
-        font-size: 40px !important;
+        font-size: 42px !important;
         line-height: 48px !important;
     }
 
     .clients-add-icon {
-        font-size: 37px !important;
+        font-size: 40px !important;
         margin: 0 0 -5px -5px !important;
     }
 
     .clients-secondary-content {
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 22px !important;
     }
 
     .clients-child-div {
-        height: 17vh;
-        width: 40%;
+        height: 23vh;
+        width: 60%;
         margin: 5% auto auto auto !important;
     }
 
@@ -360,40 +423,39 @@
     }
 
     .team-primary-content {
-        font-size: 40px !important;
+        font-size: 42px !important;
         line-height: 48px !important;
     }
 
     .team-add-icon {
-        font-size: 37px !important;
+        font-size: 40px !important;
         margin: 0 0 -5px -5px !important;
     }
 
     .team-secondary-content {
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 22px !important;
     }
 
     .team-child-div {
-        height: 17vh;
-        width: 40%;
+        height: 23vh;
+        width: 60%;
         margin: 5% auto auto auto !important;
     }
 
     .support-child-div {
-        height: 17vh;
-        width: 40%;
+        height: 23vh;
+        width: 60%;
         margin: 5% auto auto auto !important;
-        padding: 10px;
     }
 
     .support-primary-content {
-        font-size: 40px !important;
+        font-size: 42px !important;
         line-height: 48px !important;
     }
 
     .support-secondary-content {
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 22px !important;
     }
 }

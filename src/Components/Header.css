@@ -195,7 +195,7 @@ a {
             justify-content: center;
 
             /* right side all menu links  */
-            transition: 0.7s;
+            transition: 0.5s;
             visibility: hidden;
             opacity: 0;
             overflow-x: hidden;

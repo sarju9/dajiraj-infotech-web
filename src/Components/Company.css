@@ -50,19 +50,10 @@
 }
 
 @media (max-width: 1025px) {
-    /* .card-header span {
-        font-size: 42px !important;
-    } */
-
     .company-ellipse {
         height: 13px;
         margin: -45px 0;
     }
-
-    /* .card-content {
-        font-size: 15px !important;
-        line-height: 24px !important;
-    } */
 }
 
 @media (max-width: 768px) {
@@ -90,10 +81,23 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .card-header span {
         font-size: 26px !important;
+        line-height: 32px !important;
+        padding: 0 20px;
+    }
+
+    .company-image-div {
+        margin-top: 5%;
     }
 
     .company-ellipse {
         height: 10px;
-        margin: -35px 0;
+        margin: 0 0 -36px 16px;
+    }
+
+    .card-content {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        text-align: justify;
+        padding: 0 20px;
     }
 }
