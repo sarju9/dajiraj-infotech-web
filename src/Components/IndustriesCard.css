@@ -29,12 +29,12 @@
 .industries-card-img-div {}
 
 .industries-card-each-item-image {
-    height: 70px;
-    width: 70px;
+    height: 65px;
+    width: 65px;
 }
 
 .industries-card-each-item-name {
-    font-size: 22px !important;
+    font-size: 20px !important;
     line-height: 26px !important;
     font-weight: 400 !important;
     text-align: center !important;
@@ -49,12 +49,12 @@
     }
 
     .industries-card-each-item-image {
-        height: 65px;
-        width: 65px;
+        height: 60px;
+        width: 60px;
     }
 
     .industries-card-each-item-name {
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 24px !important;
     }
 }
@@ -62,16 +62,33 @@
 @media (max-width: 768px) {
     .industries-card-item-parent-div {
         height: 100px;
-        width: 300px;
+        width: 290px;
     }
 
     .industries-card-each-item-image {
-        height: 62px;
-        width: 62px;
+        height: 58px;
+        width: 58px;
     }
 
     .industries-card-each-item-name {
-        font-size: 20px !important;
-        line-height: 24px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .industries-card-item-parent-div {
+        height: 90px;
+        width: 280px;
+    }
+
+    .industries-card-each-item-image {
+        height: 56px;
+        width: 56px;
+    }
+
+    .industries-card-each-item-name {
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 }

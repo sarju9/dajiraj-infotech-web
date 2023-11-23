@@ -10,7 +10,7 @@ const PortfolioCard = ({ imgSrc, title }) => {
                     <Paper className='portfolio-card-item-child-div'>
                         <img src={imgSrc} alt={title} className='portfolio-card-each-item-image' />
                         <Box className="portfolio-card-details">
-                            <Typography display="block" variant='h4' gutterBottom className='portfolio-card-each-item-name'>
+                            <Typography display="block" gutterBottom className='portfolio-card-each-item-name'>
                                 {title}
                             </Typography>
                         </Box>

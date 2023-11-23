@@ -31,11 +31,15 @@ a {
 .menu-link {
     color: #000000 !important;
     background-color: transparent !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
-    line-height: 26px !important;
+    line-height: 24px !important;
 
     text-transform: capitalize !important;
+}
+
+.mobile-view-contact-us-menu {
+    display: none;
 }
 
 
@@ -50,11 +54,11 @@ a {
 }
 
 .contact-menu-btn {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
     line-height: 24px !important;
     border-radius: 50px !important;
-    padding: 20px 48px 20px 48px !important;
+    padding: 14px 40px 14px 40px !important;
     background: linear-gradient(#E9D288 100%, #DAAF5A 100%);
     text-transform: capitalize !important;
     box-shadow: 4px 4px 4px 0 #FFE4AD !important;
@@ -68,9 +72,25 @@ a {
     margin-left: 10px;
 }
 
+.mobile-navbar-hamburger-menu {
+    display: none;
+
+    .close-outline {
+        display: none;
+    }
+}
+
+.mobile-navbar-hamburger-menu[name="close-outline"] {
+    display: none;
+}
+
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
     .header-logo {
-        height: 7vh;
+        height: 6.7vh;
+    }
+
+    .contact-menu-btn {
+        padding: 20px 45px !important;
     }
 }
 
@@ -84,13 +104,13 @@ a {
     }
 
     .menu-link {
-        font-size: 19px !important;
+        font-size: 18px !important;
     }
 
     .contact-menu-btn {
-        font-size: 19px !important;
-        line-height: 16px !important;
-        padding: 19px 40px 19px 40px !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        padding: 14px 40px 14px 40px !important;
     }
 }
 
@@ -104,13 +124,13 @@ a {
     }
 
     .menu-link {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
     .contact-menu-btn {
-        font-size: 18px !important;
-        line-height: 14px !important;
-        padding: 17px 40px 17px 40px !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        padding: 14px 40px 14px 40px !important;
     }
 }
 
@@ -120,11 +140,12 @@ a {
     }
 
     .header-logo {
-        height: 7vh;
+        height: 6.5vh;
     }
 
     .menu-link {
-        font-size: 15px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
     }
 
     .menu-ellipse {
@@ -132,8 +153,94 @@ a {
     }
 
     .contact-menu-btn {
-        font-size: 15px !important;
-        line-height: 16px !important;
-        padding: 10px 15px 10px 15px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        padding: 8px 15px 8px 15px !important;
     }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .mobile-navbar-hamburger-menu {
+        display: inline-block;
+        z-index: 999;
+
+
+        .mobile-nav-icon {
+            font-size: 2rem;
+            color: #DAAF5A;
+        }
+    }
+
+    .menu-ellipse {
+        display: none;
+    }
+
+    .mobile-view-contact-us-menu {
+        display: inline-block;
+    }
+
+    /* hide the original nav menu */
+    .main-header {
+        padding: 10px 25px !important;
+
+        .menu {
+            width: 100vw !important;
+            height: 100vh !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #FFFDF4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            /* right side all menu links  */
+            transition: 0.5s;
+            visibility: hidden;
+            opacity: 0;
+            overflow-x: hidden;
+        }
+
+
+        .menu div {
+            /* display menu links center in mobile view  */
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .menu-link {
+            margin: 0;
+            font-size: 20px !important;
+            line-height: 34px !important;
+        }
+
+        .contact-menu {
+            display: none;
+        }
+    }
+
+    .active .mobile-nav-icon {
+        display: none;
+        font-size: 2rem;
+        position: absolute;
+        top: 6%;
+        right: 7%;
+        color: #DAAF5A;
+        z-index: 9999;
+    }
+
+    .active .close-outline {
+        display: inline-block;
+    }
+
+    .active .menu {
+        visibility: visible;
+        opacity: 1;
+        z-index: 999;
+    }
+
+    .menu {
+        overflow-x: hidden;
+    }
+
 }

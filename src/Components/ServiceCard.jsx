@@ -10,7 +10,7 @@ const ServiceCard = ({ imgSrc, title, description }) => {
                     <Paper className='services-card-item-child-div'>
                         <img src={imgSrc} alt={title} className='services-card-each-item-image' />
                         <Box className="services-card-details">
-                            <Typography display="block" variant='h4' gutterBottom className='service-card-each-item-name'>
+                            <Typography display="block" gutterBottom className='service-card-each-item-name'>
                                 {title}
                             </Typography>
                             <Typography display="block" className='services-card-each-item-description'>

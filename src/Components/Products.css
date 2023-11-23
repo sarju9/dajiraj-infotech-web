@@ -1,5 +1,22 @@
-.product-main-div {
+.container {
+    max-width: 100%;
+    height: 100px;
+    overflow-x: scroll;
     margin-top: 5%;
+}
+
+.container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .products-image-div {
@@ -9,7 +26,8 @@
 }
 
 .products-image {
-    height: 65px;
+    height: 70px;
+    margin-right: 75px;
 }
 
 @media (max-width: 1025px) {
@@ -21,5 +39,12 @@
 @media (max-width: 768px) {
     .products-image {
         height: 55px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .products-image {
+        height: 50px;
+        margin-right:50px;
     }
 }

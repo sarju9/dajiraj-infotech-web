@@ -30,11 +30,9 @@ const Products = () => {
     const ProductCard = ({ altName, imgSrc }) => {
         return (
             <>
-                <Grid item lg={3} md={3} sm={6} xs={12}>
-                    <Box className="products-image-div">
-                        <img src={imgSrc} alt={altName} className='products-image' />
-                    </Box>
-                </Grid>
+                <Box className="products-image-div">
+                    <img src={imgSrc} alt={altName} className='products-image' />
+                </Box>
             </>
         )
     }
@@ -42,15 +40,15 @@ const Products = () => {
     return (
         <>
             <Container maxWidth="lg">
-                <Grid container className='product-main-div'>
-
-                    {
-                        ProductsData.map((item) => {
-                            const { id, name, image } = item;
-                            return <ProductCard key={id} altName={name} imgSrc={image} />
-                        })
-                    }
-
+                <Grid container className='container'>
+                    <Box className="img-container">
+                        {
+                            ProductsData.map((item) => {
+                                const { id, name, image } = item;
+                                return <ProductCard key={id} altName={name} imgSrc={image} />
+                            })
+                        }
+                    </Box>
                 </Grid>
             </Container>
         </>

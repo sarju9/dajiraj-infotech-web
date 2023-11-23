@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <>
             <Grid container lg={12} md={12} sm={12} xs={12}>
-                <Box className="horizontal-line">
-                    <Divider orientation='horizontal' variant='fullWidth'></Divider>
+                <Box className="horizontal-line-div">
+                    <Divider orientation='horizontal' variant='fullWidth' className='hr-line'></Divider>
                 </Box>
             </Grid>
             <Container maxWidth="xl" className='footer' id="contactUs">
@@ -17,9 +17,9 @@ const Footer = () => {
                         <Box className="footer-main-div">
                             <img src='./Images/Footer_Logo.svg' alt="Footer Logo" className='footer-logo-img'/>
                             <Typography gutterBottom className='footer-descripton'>
-                                Custom software development company serving leading Enterprises and <br />
-                                Startups. The Company offers custom-made solutions based on the <br />
-                                expectations of the clients and the merchandise will be delivered with high <br />
+                                Custom software development company serving leading Enterprises and 
+                                Startups. The Company offers custom-made solutions based on the 
+                                expectations of the clients and the merchandise will be delivered with high 
                                 quality at affordable rates and at specified times.
                             </Typography>
                         </Box>

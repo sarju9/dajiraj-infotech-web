@@ -17,11 +17,17 @@
 }
 
 .comapny-details-card-main-header span {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .comapny-details-card-inner-header {
     padding: 0 !important;
+}
+
+.comapny-details-card-inner-header span {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 400;
 }
 
 .comapny-details-card-content-div {
@@ -30,10 +36,11 @@
 
 .comapny-details-card-content-inner-div {
     padding-top: 10px !important;
-    font-size: 17px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
-    line-height: 22px !important;
+    line-height: 24px !important;
     color: #8E8E8E !important;
+    max-width: 560px;
 }
 
 .right-side-section {
@@ -225,11 +232,12 @@
 @media (max-width: 1025px) {
     .comapny-details-card-inner-header span {
         font-size: 30px;
+        line-height: 36px;
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 15px !important;
-        line-height: 20px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 
     .projects-child-div {
@@ -258,11 +266,12 @@
 @media (max-width: 768px) {
     .comapny-details-card-inner-header span {
         font-size: 24px;
+        line-height: 30px;
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 11px !important;
-        line-height: 18px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
     }
 
     .projects-child-div {
@@ -271,10 +280,40 @@
         margin: 0 0 0 15% !important;
     }
 
+    .projects-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .projects-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .projects-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
     .clients-child-div {
         height: 22vh;
         width: 70%;
         margin: 10% 0 0 7% !important;
+    }
+
+    .clients-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .clients-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .clients-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 
     .team-child-div {
@@ -282,10 +321,141 @@
         width: 70%;
         margin: 0% 0 0 30% !important;
     }
+    
+    .team-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .team-add-icon {
+        font-size: 38px !important;
+        margin: 0 0 -5px -7px !important;
+    }
+
+    .team-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
 
     .support-child-div {
         height: 22vh;
         width: 70%;
         margin: 9% 0 0 22% !important;
+    }
+
+    .support-primary-content {
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+
+    .support-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .comapny-details-card-main-header span {
+        padding: 0 20px;
+    }
+
+    .comapny-details-card-inner-header span {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 0 20px;
+    }
+
+    .comapny-details-card-content-inner-div {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        text-align: justify;
+        padding: 0 20px;
+    }
+    
+    .main-projects-team-support-clients-div {
+        height: 120vh;
+    }
+
+    .projects-primary-content {
+        font-size: 42px !important;
+        line-height: 48px !important;
+    }
+
+    .projects-add-icon {
+        font-size: 40px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .projects-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .projects-child-div {
+        height: 23vh;
+        width: 60%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .clients-primary-content {
+        font-size: 42px !important;
+        line-height: 48px !important;
+    }
+
+    .clients-add-icon {
+        font-size: 40px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .clients-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .clients-child-div {
+        height: 23vh;
+        width: 60%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .team-support-box-div {
+        margin: 0;
+    }
+
+    .team-primary-content {
+        font-size: 42px !important;
+        line-height: 48px !important;
+    }
+
+    .team-add-icon {
+        font-size: 40px !important;
+        margin: 0 0 -5px -5px !important;
+    }
+
+    .team-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .team-child-div {
+        height: 23vh;
+        width: 60%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .support-child-div {
+        height: 23vh;
+        width: 60%;
+        margin: 5% auto auto auto !important;
+    }
+
+    .support-primary-content {
+        font-size: 42px !important;
+        line-height: 48px !important;
+    }
+
+    .support-secondary-content {
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 }

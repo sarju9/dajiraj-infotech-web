@@ -12,7 +12,7 @@ const IndustriesCard = ({ title, imgSrc }) => {
                             <img src={imgSrc} alt={title} className='industries-card-each-item-image' />
                         </Box>
                         <Box className="industries-card-details">
-                            <Typography display="block" variant='h4' gutterBottom className='industries-card-each-item-name'>
+                            <Typography display="block" gutterBottom className='industries-card-each-item-name'>
                                 {title}
                             </Typography>
                         </Box>

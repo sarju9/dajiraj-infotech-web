@@ -23,12 +23,12 @@
 }
 
 .portfolio-card-each-item-image {
-    height: 12vh;
+    height: 10vh;
     width: 100%;
 }
 
 .portfolio-card-each-item-name {
-    font-size: 22px !important;
+    font-size: 20px !important;
     line-height: 26px !important;
     font-weight: 400 !important;
     text-align: center !important;
@@ -50,7 +50,7 @@
     }
 
     .portfolio-card-each-item-name {
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 24px !important;
     }
 }
@@ -61,12 +61,24 @@
         width: 200px;
     }
 
+    .portfolio-card-each-item-name {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .portfolio-card-item-parent-div {
+        height: 155px;
+        width: 175px;
+    }
+
     .portfolio-card-each-item-image {
-        height: 12vh;
+        height: 11vh;
     }
 
     .portfolio-card-each-item-name {
-        font-size: 20px !important;
-        line-height: 24px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
 }
