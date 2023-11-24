@@ -8,6 +8,8 @@ import Portfolio from "./Components/Portfolio";
 import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
 
+// Global Style
+import "./Styles/Global_Style.css";
 
 function App() {
   return (

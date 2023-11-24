@@ -1,5 +1,20 @@
+:root {
+    --company-details-menu-font-color: #5c5c5c;
+    --project-menu-background-color: #F8FBFF;
+    --project-menu-font-color-light-blue: #70ABE1;
+    --clients-menu-background-color: #F2FFF4;
+    --clients-menu-font-color-light-green: #70E182;
+    --team-menu-background-color: #FFF8F8;
+    --team-menu-font-color-light-tomato: #E17070;
+    --support-menu-background-color: #FFFDFF;
+    --support-menu-font-color-light-purple: #D25EE4;
+
+    --menu-add-icon-font-size-44: 44px;
+    --menu-add-icon-font-weight-bold: bolder;
+}
+
 .comapany-details-main-div {
-    background-color: #FFFDF4;
+    background-color: var(--primary-background-color);
     margin-top: 5%;
 }
 
@@ -8,16 +23,16 @@
 .comapny-details-card-main-div {
     border: 0 !important;
     box-shadow: none !important;
-    background-color: #FFFDF4 !important;
+    background-color: var(--primary-background-color) !important;
 }
 
 .comapny-details-card-main-header {
-    color: #DAAF5A;
+    color: var(--primary-color);
     padding: 0 !important;
 }
 
 .comapny-details-card-main-header span {
-    font-size: 14px;
+    font-size: var(--title-large-font-size-14);
 }
 
 .comapny-details-card-inner-header {
@@ -25,9 +40,10 @@
 }
 
 .comapny-details-card-inner-header span {
-    font-size: 34px;
-    line-height: 40px;
-    font-weight: 400;
+    font-size: var(--display-large-font-size-34);
+    line-height: var(--display-large-line-height-40);
+    font-weight: var(--font-weight-400-regular);
+    color: var(--black-font-color);
 }
 
 .comapny-details-card-content-div {
@@ -36,15 +52,15 @@
 
 .comapny-details-card-content-inner-div {
     padding-top: 10px !important;
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    line-height: 24px !important;
-    color: #8E8E8E !important;
+    font-size: var(--headline-medium-font-size-18) !important;
+    font-weight: var(--font-weight-400-regular) !important;
+    line-height: var(--headline-medium-line-height-24) !important;
+    color: var(--secondary-content-font-color) !important;
     max-width: 560px;
 }
 
 .right-side-section {
-    background-color: #FFFDF4;
+    background-color: var(--primary-background-color);
 }
 
 .main-projects-team-support-clients-div {
@@ -62,25 +78,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F8FBFF !important;
-    border-radius: 20px !important;
-    border: 1px solid #70abe1;
+    background-color: var(--project-menu-background-color) !important;
+    border-radius: var(--card-and-menu-border-radius-20) !important;
+    border: 1px solid var(--project-menu-font-color-light-blue);
     box-shadow: none !important;
 }
 
 .projects-primary-content {
     font-size: 50px !important;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight-600-bold) !important;
     line-height: 64px !important;
-    color: #70ABE1;
+    color: var(--project-menu-font-color-light-blue);
 
 }
 
 .projects-secondary-content {
     text-transform: uppercase;
-    color: #5C5C5C;
-    font-weight: 600 !important;
-    font-size: 18px !important;
+    color: var(--company-details-menu-font-color);
+    font-weight: var(--font-weight-600-bold) !important;
+    font-size: var(--headline-medium-font-size-18) !important;
     line-height: 22px !important;
     display: flex;
     justify-content: center;
@@ -88,9 +104,9 @@
 }
 
 .projects-add-icon {
-    font-size: 44px !important;
-    font-weight: bolder !important;
-    color: #70ABE1;
+    font-size: var(--menu-add-icon-font-size-44) !important;
+    font-weight: var(--menu-add-icon-font-weight-bold) !important;
+    color: var(--project-menu-font-color-light-blue);
     padding: 0 !important;
     margin: 0 0 -4px -8px !important;
 
@@ -104,26 +120,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F2FFF4 !important;
-    border-radius: 20px !important;
-    border: 1px solid #70E182;
+    background-color: var(--clients-menu-background-color) !important;
+    border-radius: var(--card-and-menu-border-radius-20) !important;
+    border: 1px solid var(--clients-menu-font-color-light-green);
     margin: 11% 0 0 -2% !important;
     box-shadow: none !important;
 }
 
 .clients-primary-content {
     font-size: 50px !important;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight-600-bold) !important;
     line-height: 64px !important;
-    color: #70E182;
+    color: var(--clients-menu-font-color-light-green);
 
 }
 
 .clients-secondary-content {
     text-transform: uppercase;
-    color: #5C5C5C;
-    font-weight: 600 !important;
-    font-size: 18px !important;
+    color: var(--company-details-menu-font-color);
+    font-weight: var(--font-weight-600-bold) !important;
+    font-size: var(--headline-medium-font-size-18) !important;
     line-height: 22px !important;
     display: flex;
     justify-content: center;
@@ -131,9 +147,9 @@
 }
 
 .clients-add-icon {
-    font-size: 44px !important;
-    font-weight: bolder !important;
-    color: #70E182;
+    font-size: var(--menu-add-icon-font-size-44) !important;
+    font-weight: var(--menu-add-icon-font-weight-bold) !important;
+    color: var(--clients-menu-font-color-light-green);
     padding: 0 !important;
     margin: 0 0 -4px -8px !important;
 }
@@ -150,26 +166,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF8F8 !important;
-    border-radius: 20px !important;
-    border: 1px solid #E17070;
+    background-color: var(--team-menu-background-color) !important;
+    border-radius: var(--card-and-menu-border-radius-20) !important;
+    border: 1px solid var(--team-menu-font-color-light-tomato);
     margin: 1% 0 0 18% !important;
     box-shadow: none !important;
 }
 
 .team-primary-content {
     font-size: 50px !important;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight-600-bold) !important;
     line-height: 64px !important;
-    color: #E17070;
+    color: var(--team-menu-font-color-light-tomato);
 
 }
 
 .team-secondary-content {
     text-transform: uppercase;
-    color: #5C5C5C;
-    font-weight: 600 !important;
-    font-size: 18px !important;
+    color: var(--company-details-menu-font-color);
+    font-weight: var(--font-weight-600-bold) !important;
+    font-size: var(--headline-medium-font-size-18) !important;
     line-height: 22px !important;
     display: flex;
     justify-content: center;
@@ -177,9 +193,9 @@
 }
 
 .team-add-icon {
-    font-size: 44px !important;
-    font-weight: bolder !important;
-    color: #E17070;
+    font-size: var(--menu-add-icon-font-size-44) !important;
+    font-weight: var(--menu-add-icon-font-weight-bold) !important;
+    color: var(--team-menu-font-color-light-tomato);
     padding: 0 !important;
     margin: 0 0 -4px -8px !important;
 }
@@ -195,26 +211,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFDFF !important;
-    border-radius: 20px !important;
-    border: 1px solid #D25EE4;
+    background-color: var(--support-menu-background-color) !important;
+    border-radius: var(--card-and-menu-border-radius-20) !important;
+    border: 1px solid var(--support-menu-font-color-light-purple);
     margin: 11% 0 0 15% !important;
     box-shadow: none !important;
 }
 
 .support-primary-content {
     font-size: 50px !important;
-    font-weight: 600 !important;
+    font-weight: var(--font-weight-600-bold) !important;
     line-height: 64px !important;
-    color: #D25EE4;
+    color: var(--support-menu-font-color-light-purple);
 
 }
 
 .support-secondary-content {
     text-transform: uppercase;
-    color: #5C5C5C;
-    font-weight: 600 !important;
-    font-size: 18px !important;
+    color: var(--company-details-menu-font-color);
+    font-weight: var(--font-weight-600-bold) !important;
+    font-size: var(--headline-medium-font-size-18) !important;
     line-height: 22px !important;
     display: flex;
     justify-content: center;
@@ -222,22 +238,22 @@
 }
 
 .support-add-icon {
-    font-size: 44px !important;
-    font-weight: bolder !important;
-    color: #D25EE4;
+    font-size: var(--menu-add-icon-font-size-44) !important;
+    font-weight: var(--menu-add-icon-font-weight-bold) !important;
+    color: var(--support-menu-font-color-light-purple);
     padding: 0 !important;
     margin: 0 0 -4px -8px !important;
 }
 
 @media (max-width: 1025px) {
     .comapny-details-card-inner-header span {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: var(--display-large-font-size-30);
+        line-height: var(--display-large-line-height-36);
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .projects-child-div {
@@ -265,13 +281,13 @@
 
 @media (max-width: 768px) {
     .comapny-details-card-inner-header span {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: var(--display-medium-font-size-24);
+        line-height: var(--display-medium-line-height-30);
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 14px !important;
-        line-height: 20px !important;
+        font-size: var(--title-large-font-size-14) !important;
+        line-height: var(--title-large-line-height-20) !important;
     }
 
     .projects-child-div {
@@ -291,8 +307,8 @@
     }
 
     .projects-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .clients-child-div {
@@ -312,8 +328,8 @@
     }
 
     .clients-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .team-child-div {
@@ -321,7 +337,7 @@
         width: 70%;
         margin: 0% 0 0 30% !important;
     }
-    
+
     .team-primary-content {
         font-size: 42px !important;
         line-height: 58px !important;
@@ -333,8 +349,8 @@
     }
 
     .team-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .support-child-div {
@@ -349,8 +365,8 @@
     }
 
     .support-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 }
 
@@ -360,18 +376,18 @@
     }
 
     .comapny-details-card-inner-header span {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: var(--display-small-font-size-22);
+        line-height: var(--display-small-line-height-28);
         padding: 0 20px;
     }
 
     .comapny-details-card-content-inner-div {
-        font-size: 14px !important;
-        line-height: 20px !important;
+        font-size: var(--title-large-font-size-14) !important;
+        line-height: var(--title-large-line-height-20) !important;
         text-align: justify;
         padding: 0 20px;
     }
-    
+
     .main-projects-team-support-clients-div {
         height: 120vh;
     }
@@ -387,8 +403,8 @@
     }
 
     .projects-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .projects-child-div {
@@ -408,8 +424,8 @@
     }
 
     .clients-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .clients-child-div {
@@ -433,8 +449,8 @@
     }
 
     .team-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 
     .team-child-div {
@@ -455,7 +471,7 @@
     }
 
     .support-secondary-content {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
     }
 }

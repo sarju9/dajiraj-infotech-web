@@ -1,15 +1,15 @@
 .industries-main-div {
-    margin-top: 5% !important;
+    margin-top: var(--main-div-margin-top-5) !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: var(--white-background-color);
 }
 
 .industries-card-div {
     border: 0 !important;
     box-shadow: none !important;
-    background-color: #FFFFFF !important;
+    background-color: var(--white-background-color) !important;
 }
 
 .industries-card-main-header {
@@ -20,9 +20,10 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 34px;
-    line-height: 40px;
-    font-weight: 400;
+    font-size: var(--display-large-font-size-34);
+    line-height: var(--display-large-line-height-40);
+    font-weight: var(--font-weight-400-regular);
+    color: var(--black-font-color);
 }
 
 .industries-card-content-div {
@@ -33,12 +34,11 @@
 }
 
 .industries-card-content-inner-div {
-    font-size: 24px !important;
-    line-height: 28px !important;
     text-align: center;
-    font-size: 20px !important;
-    line-height: 26px !important;
+    font-size: var(--headline-large-font-size-20) !important;
+    line-height: var(--headline-large-line-height-26) !important;
     max-width: 750px;
+    color: var(--secondary-content-font-color) !important;
 }
 
 .industries-list-div {
@@ -47,38 +47,38 @@
 
 @media (max-width: 1025px) {
     .industries-card-main-header span {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: var(--display-large-font-size-30);
+        line-height: var(--display-large-line-height-36) ;
     }
 
     .industries-card-content-inner-div {
-        font-size: 18px !important;
-        line-height: 24px !important;
+        font-size: var(--headline-medium-font-size-18) !important;
+        line-height: var(--headline-medium-line-height-24) !important;
         max-width: 680px;
     }
 }
 
 @media (max-width: 768px) {
     .industries-card-main-header span {
-        font-size: 26px;
-        line-height: 32px;
+        font-size: var(--display-large-font-size-26);
+        line-height: var(--display-large-line-height-32);
     }
 
     .industries-card-content-inner-div {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
         max-width: 600px;
     }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .industries-card-main-header span {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: var(--display-small-font-size-22);
+        line-height: var(--display-small-line-height-28);
     }
 
     .industries-card-content-inner-div {
-        font-size: 15px !important;
-        line-height: 21px !important;
+        font-size: var(--headline-xs-small-font-size-15) !important;
+        line-height: var(--headline-xs-small-line-height-21) !important;
     }
 }

@@ -1,5 +1,5 @@
 .services-main-div {
-    margin-top: 5% !important;
+    margin-top: var(--main-div-margin-top-5) !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +18,10 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 34px;
-    line-height: 40px;
-    font-weight: 400;
+    font-size: var(--display-large-font-size-34);
+    line-height: var(--display-large-line-height-40);
+    font-weight: var(--font-weight-400-regular);
+    color: var(--black-font-color);
 }
 
 .services-card-content-div {
@@ -31,10 +32,11 @@
 }
 
 .services-card-content-inner-div {
-    font-size: 20px !important;
-    line-height: 26px !important;
+    font-size: var(--headline-large-font-size-20) !important;
+    line-height: var(--headline-large-line-height-26) !important;
     text-align: center;
     max-width: 750px;
+    color: var(--secondary-content-font-color) !important;
 }
 
 .services-items-div {}
@@ -45,14 +47,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFDF4 !important;
-    border-radius: 20px !important;
-    border: 1px solid #E9D288;
+    background-color: var(--primary-background-color) !important;
+    border-radius: var(--card-and-menu-border-radius-20) !important;
+    border: 1px solid var(--card-border-color);
 }
 
 .item-child-div {
     box-shadow: none !important;
-    background-color: #FFFDF4 !important;
+    background-color: var(--primary-background-color) !important;
 }
 
 .services-each-item-image {
@@ -64,59 +66,55 @@
 .services-card-details {}
 
 .service-each-item-name {
-    font-size: 22px !important;
-    line-height: 26px !important;
-    font-weight: 400 !important;
+    font-size: var(--display-small-font-size-22) !important;
+    line-height: var(--headline-large-line-height-26) !important;
+    font-weight: var(--font-weight-400-regular) !important;
     text-align: center !important;
-    color: #000000 !important;
+    color: var(--black-font-color) !important;
 }
 
 .services-each-item-description {
-    font-size: 15px !important;
-    font-weight: 400 !important;
+    font-size: var(--headline-xs-small-font-size-15) !important;
+    font-weight: var(--font-weight-400-regular) !important;
     line-height: 18px !important;
     text-align: center !important;
-    color: #8E8E8E !important;
-
+    color: var(--secondary-content-font-color) !important;
 }
 
 @media (max-width: 1025px) {
     .services-card-main-header span {
-        font-size: 30px;
-        line-height: 36px;
-        font-weight: 400;
+        font-size: var(--display-large-font-size-30);
+        line-height: var(--display-large-line-height-36) ;
     }
 
     .services-card-content-inner-div {
-        font-size: 18px !important;
-        line-height: 24px !important;
+        font-size: var(--headline-medium-font-size-18) !important;
+        line-height: var(--headline-medium-line-height-24) !important;
     }
 }
 
 @media (max-width: 768px) {
     .services-card-main-header span {
-        font-size: 26px;
-        line-height: 32px;
-        font-weight: 400;
+        font-size: var(--display-large-font-size-26);
+        line-height: var(--display-large-line-height-32);
     }
 
     .services-card-content-inner-div {
-        font-size: 16px !important;
-        line-height: 22px !important;
+        font-size: var(--headline-small-font-size-16) !important;
+        line-height: var(--headline-small-line-height-22) !important;
         max-width: 600px;
     }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .services-card-main-header span {
-        font-size: 22px;
-        line-height: 28px;
-        font-weight: 400;
+        font-size: var(--display-small-font-size-22);
+        line-height: var(--display-small-line-height-28);
     }
 
     .services-card-content-inner-div {
-        font-size: 15px !important;
-        line-height: 21px !important;
+        font-size: var(--headline-xs-small-font-size-15) !important;
+        line-height: var(--headline-xs-small-line-height-21) !important;
         max-width: 500px;
     }
 }

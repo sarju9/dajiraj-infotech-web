@@ -43,6 +43,9 @@
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .container {
+        padding: 0 20px;
+    }
     .products-image {
         height: 50px;
         margin-right:50px;

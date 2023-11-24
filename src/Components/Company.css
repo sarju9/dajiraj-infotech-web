@@ -9,14 +9,15 @@
 }
 
 .card-header span {
-    font-size: 36px;
-    line-height: 42px;
-    font-weight: 400;
+    font-size: var(--display-large-font-size-34);
+    line-height: var(--display-large-line-height-40);
+    font-weight: var(--font-weight-400-regular);
+    color: var(--black-font-color);
 }
 
 .company-ellipse {
-    height: 14px;
-    margin: -47px 0;
+    height: 13px;
+    margin: -45px 0;
 }
 
 .card-header {
@@ -30,10 +31,10 @@
 }
 
 .card-content {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    color: #8E8E8E !important;
-    font-weight: 400 !important;
+    font-size: var(--headline-medium-font-size-18) !important;
+    line-height: var(--headline-medium-line-height-24) !important;
+    color: var(--secondary-content-font-color) !important;
+    font-weight: var(--font-weight-400-regular) !important;
     max-width: 600px;
 }
 
@@ -58,8 +59,8 @@
 
 @media (max-width: 768px) {
     .card-header span {
-        font-size: 30px !important;
-        line-height: 36px !important;
+        font-size: var(--display-large-font-size-30) !important;
+        line-height: var(--display-large-line-height-36) !important;
     }
 
     .company-ellipse {
@@ -68,8 +69,8 @@
     }
 
     .card-content {
-        font-size: 14px !important;
-        line-height: 20px !important;
+        font-size: var(--title-large-font-size-14) !important;
+        line-height: var(--title-large-line-height-20) !important;
     }
 
     .company-image {
@@ -80,8 +81,8 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .card-header span {
-        font-size: 26px !important;
-        line-height: 32px !important;
+        font-size: var(--display-large-font-size-26) !important;
+        line-height: var(--display-large-line-height-32) !important;
         padding: 0 20px;
     }
 
@@ -95,8 +96,8 @@
     }
 
     .card-content {
-        font-size: 14px !important;
-        line-height: 20px !important;
+        font-size: var(--title-large-font-size-14) !important;
+        line-height: var(--title-large-line-height-20) !important;
         text-align: justify;
         padding: 0 20px;
     }
